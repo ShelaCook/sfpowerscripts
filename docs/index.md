@@ -49,7 +49,7 @@ For eg: a Pull Request validation for an unlocked package should feature the tas
 6. Deploy source to the target scratch org
 7. Delete the scratch org ( optional :  Utilize post action on create scratch org task )
 
-* Most of the tasks are very thin wrappers aroud the equivalent sfdx cli commands or the open source sfpowerkit (SFDX CLI extension). Almost all parameters that are requred during a CI run is exposed. If you feel that is not enough for the task at hand, one can quickly fall back to command line parameterized just for the task
+* Most of the tasks are very thin wrappers around the equivalent sfdx cli commands or the open-source sfpowerkit (SFDX CLI extension). Almost all parameters that are required during a CI run is exposed. If you feel that is not enough for the task at hand, one can quickly fall back to command line parameterized just for the taskMost of the tasks are very thin wrappers aroud the equivalent sfdx cli commands or the open source sfpowerkit (SFDX CLI extension). Almost all parameters that are requred during a CI run is exposed. If you feel that is not enough for the task at hand, one can quickly fall back to command line parameterized just for the task
 
 * Though the tasks can all be utilized fully in build pipeline. It is recommended to utilize the Release Pipeline to deploy the artifact to make the full use of Azure Pipelines Capability.
 
