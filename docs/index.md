@@ -35,7 +35,7 @@ Please note this extension only works with the newer source format based reposit
 
 #### How does it work?
 
-* The extension is designed with tasks which are granular, which means all the above tasks has to be orchestrated in a valid order required to reach the required objective. This allows one to utilise other commands or extensions between the tasks and be highly effective rather than getting tied to a single task. This ensures maximum flexiblity while building the pipeline.
+* The extension is designed with tasks which are granular, which means all the above tasks have to be orchestrated in a valid order required to reach the required objective. This allows one to utilise other commands or extensions between the tasks and be highly effective rather than getting tied to a single task. This ensures maximum flexibility while building the pipeline.
 
 For eg: a Pull Request validation for an unlocked package should feature the tasks in this order
 
